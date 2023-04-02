@@ -5,11 +5,13 @@ import com.utkudogrusoz.bookservice.repository.BookRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 import java.util.Arrays;
 import java.util.List;
 
 @SpringBootApplication
+@EnableDiscoveryClient
 public class BookServiceApplication implements CommandLineRunner {
 private final BookRepository repository;
 

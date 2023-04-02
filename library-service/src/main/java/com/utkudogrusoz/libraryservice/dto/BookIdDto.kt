@@ -1,4 +1,4 @@
-package com.utkudogrusoz.bookservice.dto
+package com.utkudogrusoz.libraryservice.dto
 
 data class BookIdDto @JvmOverloads constructor(
         val bookId: String? = "",
